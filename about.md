@@ -13,13 +13,17 @@ title: 关于我
 
 <h3> 致谢 </h3>
 
-感谢来自B站的良荐 ---> [基于 GitHub Pages 和 Jekyll 搭建个人博客的简单心得]{https://www.bilibili.com/video/av13994132/}
+> 感谢来自B站的良荐
 
-感谢原创作者的无私 ---> [潘柏信]{https://github.com/leopardpan/leopardpan.github.io/}
+> [基于 GitHub Pages 和 Jekyll 搭建个人博客的简单心得](https://www.bilibili.com/video/av13994132/)
+
+> 感谢原创作者的无私
+
+> [潘柏信](https://github.com/leopardpan/leopardpan.github.io/)
 
 <h3> 相关推荐 </h3>
 
-[认识与入门 Markdown]{https://sspai.com/post/25137}
+> [认识与入门 Markdown](https://sspai.com/post/25137)
 
 
 {% include comments.html %}
