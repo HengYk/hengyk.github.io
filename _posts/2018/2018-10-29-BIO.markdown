@@ -17,25 +17,31 @@ tag: JAVA-BIO-NIO-AIO
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务器通过一个Acceptor线程负责监听客户端请求和为每个客户端创建一个新的线程进行链路处理。典型的一请求一应答模式。若客户端数量增多，频繁地创建和销毁线程会给服务器打开很大的压力。后改良为用线程池的方式代替新增线程，被称为`伪异步IO`。
 服务器提供IP地址和监听的端口，客户端通过TCP的三次握手与服务器连接，连接成功后，双方才能通过套接字(Socket)通信。
 
-![](/images/post/BIOpro.png)
+<img src="/images/post/BIOpro.png" width="500px" height=""></img>
+<!-- ![](/images/post/BIOpro.png) -->
 
 ### 3. 常见的IO流
 
-![](/images/post/IOlist.jpg)
+<img src="/images/post/IOlist.jpg" width="500px" height=""></img>
+<!-- ![](/images/post/IOlist.jpg) -->
 
 ### 4. 代码解析
 > 服务端：第一步，设置端口监听；第二步，等待监听结果（阻塞）；第三步，创建并处理线程任务。
 
-![](/images/post/BIOserver.png)
+<img src="/images/post/BIOserver.png" width="500px" height=""></img>
+<!-- ![](/images/post/BIOserver.png) -->
 
 > 客户端：第一步，向服务器发起连接；第二步，向服务器发送请求并接收来自服务器的处理结果。
 
-![](/images/post/BIOclient.png)
+<img src="/images/post/BIOclient.png" width="500px" height=""></img>
+<!-- ![](/images/post/BIOclient.png) -->
 
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;改良后的服务端：第一步，设置端口监听；第二步，创建线程池；第三步，等待监听结果（阻塞）；第四步，创建线程任务并加入线程到线程池中；第五步，处理线程池中的线程任务。
 
-![](/images/post/modBIOserver.png)
-![](/images/post/modBIOserver2.png)
+<img src="/images/post/modBIOserver.png" width="500px" height=""></img>
+<img src="/images/post/modBIOserver2.png" width="500px" height=""></img>
+<!-- ![](/images/post/modBIOserver.png)
+![](/images/post/modBIOserver2.png) -->
 
 ### 5. BIO【JDK 1.0】小结
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BIO模型中通过Socket和ServerSocket完成套接字通道的实现。阻塞，同步，建立连接耗时。实现BIO程序开发：同步阻塞IO操作，每一个线程都只会管理一个客户端的链接，这种操作的本质是存在有程序阻塞的问题。此问题可以通过引入伪异步IO的方式进行一定程度的改善。程序问题：性能不高、多线程的利用率不高、如果大规模的用户访问，有可能会造成服务器端资源耗尽。
