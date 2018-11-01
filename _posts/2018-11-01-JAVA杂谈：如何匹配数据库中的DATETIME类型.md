@@ -90,7 +90,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 ### 7. Java数据类型与Mysql数据类型对照表
 
-| 类型名称	| 显示长度	| 数据库类型	| JAVA类型	| JDBC类型索引(int) |
+> | 类型名称	| 显示长度	| 数据库类型	| JAVA类型	| JDBC类型索引(int) |
 | :------: | :-------: | :-------: | :-------: | :-------------: |		
 | VARCHAR	| L+N	| VARCHAR	| java.lang.String	| 12 |
 | CHAR	| N	| CHAR	| java.lang.String	| 1 |
