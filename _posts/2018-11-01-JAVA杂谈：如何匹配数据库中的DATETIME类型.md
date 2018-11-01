@@ -12,7 +12,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	继承关系
 
-<img src="/images/post/dateclass.png" width="600px" height="">
+<img src="/images/post/dateclass.png" width="800px" height="">
 
 #### b)	日期格式
 
@@ -30,7 +30,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	实施细节
 
-<img src="/images/post/stringdatetime.png" width="600px" height="">
+<img src="/images/post/stringdatetime.png" width="800px" height="">
 
 #### b)	写入和读取结果
 
@@ -45,7 +45,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	实施细节
 
-<img src="/images/post/sqldatedatetime.png" width="600px" height="">
+<img src="/images/post/sqldatedatetime.png" width="800px" height="">
 
 #### b)	写入和读取结果
 
@@ -60,7 +60,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	实施细节
 
-<img src="/images/post/timestampdatetime.png" width="600px" height="">
+<img src="/images/post/timestampdatetime.png" width="800px" height="">
 
 #### b)	写入和读取结果
 
@@ -75,7 +75,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 > Time类无法直接写入为DATETIME类型。
 
-<img src="/images/post/timedatetime.png" width="600px" height="">
+<img src="/images/post/timedatetime.png" width="800px" height="">
 
 > 输出结果：** time: 11:15:35   type = java.sql.Time **  
 > 执行写入报错：** Data truncation: Incorrect datetime value **
