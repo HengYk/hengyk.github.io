@@ -12,17 +12,21 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	继承关系
 
-<img src="/images/post/dateclass.png" width="800px" height="">
+<img src="/images/post/dateclass.png" width="1000px" height="">
 
-#### b)	日期格式
+#### b) 实施细节
+
+<img src="/images/post/utildatedatetime.png" width="1000px" height="">
+
+#### c)	日期格式
 
 >  utilDate: Thu Nov 01 11:15:35 CST 2018&nbsp;&nbsp;&nbsp;type = java.util.Date
 
-#### c)	能否直接匹配数据库的DATETIME类型
+#### d)	能否直接匹配数据库的DATETIME类型
 
 > 不能，需要经过转化，详见2、3、4。
 
-#### d)	转化为毫秒（ms）
+#### e)	转化为毫秒（ms）
 
 >  utilDate.getTime(): 1541042135041&nbsp;&nbsp;&nbsp;type = long
 
@@ -30,7 +34,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	实施细节
 
-<img src="/images/post/stringdatetime.png" width="800px" height="">
+<img src="/images/post/stringdatetime.png" width="1000px" height="">
 
 #### b)	写入和读取结果
 
@@ -45,7 +49,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	实施细节
 
-<img src="/images/post/sqldatedatetime.png" width="800px" height="">
+<img src="/images/post/sqldatedatetime.png" width="1000px" height="">
 
 #### b)	写入和读取结果
 
@@ -60,7 +64,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### a)	实施细节
 
-<img src="/images/post/timestampdatetime.png" width="800px" height="">
+<img src="/images/post/timestampdatetime.png" width="1000px" height="">
 
 #### b)	写入和读取结果
 
@@ -75,7 +79,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 > Time类无法直接写入为DATETIME类型。
 
-<img src="/images/post/timedatetime.png" width="800px" height="">
+<img src="/images/post/timedatetime.png" width="1000px" height="">
 
 > 输出结果： time: 11:15:35&nbsp;&nbsp;&nbsp;type = java.sql.Time  
 > 执行写入报错： Data truncation: Incorrect datetime value
