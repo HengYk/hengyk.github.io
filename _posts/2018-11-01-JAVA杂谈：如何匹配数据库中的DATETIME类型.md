@@ -16,7 +16,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### b)	日期格式
 
-> utilDate: Thu Nov 01 11:15:35 CST 2018 | type = java.util.Date
+> utilDate: Thu Nov 01 11:15:35 CST 2018   type = java.util.Date
 
 #### c)	能否直接匹配数据库的DATETIME类型
 
@@ -24,7 +24,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### d)	转化为毫秒（ms）
 
-> utilDate.getTime(): 1541042135041 | type = long
+> utilDate.getTime(): 1541042135041   type = long
 
 ### 2.第一种转化方式 SimpleDateFormat类
 
@@ -34,8 +34,8 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### b)	写入和读取结果
 
-> 写入：formatDate: 2018-11-01 11-15-35 | type = String  
-> 读取：getFormatData: 2018-11-01 11:15:35.0 | type = String
+> 写入：formatDate: 2018-11-01 11-15-35   type = String  
+> 读取：getFormatData: 2018-11-01 11:15:35.0   type = String
 
 #### c)	数据库中的写入结果
 
@@ -49,8 +49,8 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### b)	写入和读取结果
 
-> 写入：sqlDate: 2018-11-01 | type = java.sql.Date
-> 读取：getSqlData: 2018-11-01 | type = java.sql.Date
+> 写入：sqlDate: 2018-11-01   type = java.sql.Date
+> 读取：getSqlData: 2018-11-01   type = java.sql.Date
 
 #### c)	数据库中的写入结果
 
@@ -64,8 +64,8 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 #### b)	写入和读取结果
 
-> 写入：timestamp: 2018-11-01 11:15:35.041 | type = java.sql.Timestamp  
-> 读取：getTimestamp: 2018-11-01 11:15:35.0 | type = java.sql.Timestamp
+> 写入：timestamp: 2018-11-01 11:15:35.041   type = java.sql.Timestamp  
+> 读取：getTimestamp: 2018-11-01 11:15:35.0   type = java.sql.Timestamp
 
 #### c)	数据库中的写入结果
 
@@ -77,7 +77,7 @@ tag: SQL系列文章（JAVA-SQL-*）
 
 <img src="/images/post/timedatetime.png" width="600px" height="">
 
-> 输出结果：time: 11:15:35 | type = java.sql.Time  
+> 输出结果：time: 11:15:35   type = java.sql.Time  
 > 执行写入报错：Data truncation: Incorrect datetime value
 
 ### 6.总结
