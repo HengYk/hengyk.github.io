@@ -69,11 +69,14 @@ tag: 源码系列文章（JAVA-CODE）
 
 > HashMap    原理：哈希表
 
-![HashMapPic](../images/post/HashMapPic.png)
+<!-- ![HashMapPic](../images/post/HashMapPic.png) -->
+> <img src="/images/post/HashMapPic.png" width="600px" height="">
 
-![HashMapPic2-1](../images/post/HashMapPic2-1.png)
+<!-- ![HashMapPic2-1](../images/post/HashMapPic2-1.png) -->
+> <img src="/images/post/HashMapPic2-1.png" width="600px" height="">
 
-![HashMapPic2-2](../images/post/HashMapPic2-2.png)
+<!-- ![HashMapPic2-2](../images/post/HashMapPic2-2.png) -->
+> <img src="/images/post/HashMapPic2-2.png" width="600px" height="">
 
 > LinkedHashMap    原理：哈希表 + 双向链表
 
