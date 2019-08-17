@@ -80,8 +80,8 @@ tag: 源码系列文章（JAVA-CODE）
 
 > LinkedHashMap    原理：哈希表 + 双向链表
 
-![LinkedHashMapPic1](../images/post/LinkedHashMapPic1.png)
+<!-- ![LinkedHashMapPic1](../images/post/LinkedHashMapPic1.png) -->
 > <img src="/images/post/LinkedHashMapPic1.png" width="600px" height="">
 
-![LinkedHashMapPic2](../images/post/LinkedHashMapPic2.png)
+<!-- ![LinkedHashMapPic2](../images/post/LinkedHashMapPic2.png) -->
 > <img src="/images/post/LinkedHashMapPic2.png" width="600px" height="">
