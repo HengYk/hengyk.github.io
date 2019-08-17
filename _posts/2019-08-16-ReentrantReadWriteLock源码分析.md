@@ -276,7 +276,8 @@ public static class WriteLock implements Lock, java.io.Serializable {
 
 ##### State状态说明
 
-![锁状态](../images/post/锁状态.png)
+<!-- ![锁状态](../images/post/锁状态.png) -->
+> <img src="/images/post/锁状态.png" width="600px" height="">
 
 ```java
  static final int SHARED_SHIFT = 16;
